@@ -1,0 +1,24 @@
+.index {
+  margin-top: 5em;
+}
+
+.heading {
+  padding-bottom: 0.75em;
+  font-size: 1rem;
+  border-bottom: 2px solid hsla(0, 0%, 0%, 0.2);
+}
+
+.project {
+  margin-top: 2.5em;
+  padding-bottom: 2.5em;
+  border-bottom: 2px solid hsla(0, 0%, 0%, 0.2);
+}
+
+.project:last-of-type {
+  border-bottom: none;
+}
+
+.title {
+  font-size: 1.35em;
+  margin-bottom: 1.1rem;
+}

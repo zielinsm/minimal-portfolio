@@ -1,0 +1,11 @@
+.index {
+  text-align: right;
+  width: 100%;
+}
+
+.link {
+  font-size: 14.5px;
+  margin-left: 1em;
+  font-family: 'Avenir Next';
+  font-weight: 700;
+}

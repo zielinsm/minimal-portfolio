@@ -1,0 +1,15 @@
+.index {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2em 1em 0;
+  }
+
+.content {
+  max-width: 575px;
+  width: 100%;
+}
+
+a:hover {
+  color:#939393;  
+}
