@@ -17,7 +17,7 @@ const Navigation = props => {
   const informationArr = [
     {
       label: 'Mail',
-      value: links.mail,
+      value: `mailto:${links.mail}`
     },
     {
       label: 'Twitter',
@@ -32,7 +32,7 @@ const Navigation = props => {
       value: links.linkedIn,
     },
     {
-      label: 'Github',
+      label: 'GitHub',
       value: links.github,
     },
   ]
