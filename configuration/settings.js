@@ -17,8 +17,8 @@ module.exports = {
   // ----------
   information: {
     mail: "mail@example.com",
-    linkedIn: "https://linkedin.com",
-    twitter: "https://linkedin.com",
+    linkedIn: "https://example.link",
+    twitter: "https://example.link",
     facebook: null,
     github: null,
   },
