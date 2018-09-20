@@ -30,4 +30,4 @@ Steps to create your very own portfolio page using this project:
 
 ### Notes
 
-This template is mostly meant to showcase projects you created or participated in. Any other sections could be created in a smiliar way the *about* one is.
+This template is meant to help showcase projects you created or participated in. Any other sections could be created in a smiliar way to the *projects* one.
