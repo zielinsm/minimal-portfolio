@@ -1,6 +1,9 @@
 # Minimal Portfolio
 
+![Project screenshot](https://raw.githubusercontent.com/zielinsm/minimal-portfolio/master/cover.png)
+
 Easily configurable, simplistic protfolio starter using [Gatsby](https://www.gatsbyjs.org/) and Markdown.
+
 **[Live demo](https://minimal-portfolio.zielinsk.im/)** hosted on Netlify.
 
 ---
