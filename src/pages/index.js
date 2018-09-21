@@ -1,12 +1,12 @@
-import React from 'react'
-import Link from 'gatsby-link'
+import React from "react"
+import Link from "gatsby-link"
 
-const settings = require('../../configuration/settings')
+const settings = require("../../configuration/settings")
 
-import Container from '../components/Container'
-import Navigation from '../components/Navigation'
-import Header from '../components/Header'
-import List from '../components/List'
+import Container from "../components/Container"
+import Navigation from "../components/Navigation"
+import Header from "../components/Header"
+import List from "../components/List"
 
 const IndexPage = props => {
   const aboutData = props.data.about.edges[0]
@@ -15,7 +15,7 @@ const IndexPage = props => {
   return (
     <Container>
       <Navigation links={settings.information} />
-      <div style={{ maxWidth: '500px' }}>
+      <div style={{ maxWidth: "500px" }}>
         <Header about={aboutData} />
         <List projects={projectsData} />
       </div>
@@ -32,7 +32,7 @@ query IndexQuery {
       }
     }
   }
-  projects: allMarkdownRemark(filter: {fileAbsolutePath: {regex: "/(/content/projects)/.*\\.md$/"}}) {
+  projects: allMarkdownRemark(filter: {fileAbsolutePath: {regex: "/(/content/projects)/.*\\.md$/"}}, sort: { order: DESC, fields: [frontmatter___title] }) {
     edges {
       node {
         html
