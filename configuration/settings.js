@@ -16,7 +16,7 @@ module.exports = {
   /* Your social media and contact information. Leave "null" if you don't want it to show. */
   // ----------
   information: {
-    mail: "mail@example.com",
+    mail: "mailto:mail@example.com",
     linkedIn: "https://example.link",
     twitter: "https://example.link",
     facebook: null,
