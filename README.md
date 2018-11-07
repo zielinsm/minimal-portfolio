@@ -25,9 +25,3 @@ Steps to create your very own portfolio page using this project:
 3. Modify `./configuration/settings` file to suit your requirements
 4. Add content in the `./content` directory. The *about* section is modifiable through the `./content/about.md` file. Projects should be placed in the `./content/projects` directory with each subdirectory representing an individual project. Any additional files like project covers are preferably stored in project subdirectories. Example project files are provided with the project.
 5. Use `npm run build` to create a deployable bundle (that later can be found in `./public` directory) to use with GitHub Pages, [Surge](https://surge.sh/), [Netlify](https://www.netlify.com/) or any other static deployment tool.
-
----
-
-### Notes
-
-This template is meant to help showcase projects you created or participated in. Any other sections could be created in a smiliar way to the *projects* one.
