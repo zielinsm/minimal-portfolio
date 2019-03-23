@@ -14,6 +14,8 @@ jobs:
           paths:
             - node_modules
           key: v1-dependencies-{{ checksum "package.json" }}
+      - run: pwd
+      - run: ls
       - run: sudo ./deploy.sh
     branches:
       only:
