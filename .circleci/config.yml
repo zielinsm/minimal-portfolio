@@ -14,4 +14,9 @@ jobs:
           paths:
             - node_modules
           key: v1-dependencies-{{ checksum "package.json" }}
+      - run: pwd
+      - run: ls
       - run: ./deploy.sh
+    branches:
+      only:
+        - master
