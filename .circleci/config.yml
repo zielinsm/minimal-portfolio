@@ -1,6 +1,9 @@
 version: 2
 jobs:
   build:
+    branches:
+      ignore:
+        - gh-pages
     docker:
       - image: circleci/node:7.10
     steps:
@@ -15,11 +18,3 @@ jobs:
             - node_modules
           key: v1-dependencies-{{ checksum "package.json" }}
       - run: sh ./deploy.sh
-workflows:
-  version: 2
-  main:
-    jobs:
-    - build:
-        filters:
-          branches:
-            only: master
