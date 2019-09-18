@@ -3,7 +3,7 @@ module.exports = {
   // ----------
   site: {
     url: "", // Domain your site will run on.
-    path: "/", // Specify path to the portfolio. Example: "/portfolio".
+    path: "/minimal-portfolio", // Specify path to the portfolio. Example: "/portfolio".
     shortTitle: "Minimal Porfolio", // This will display as heading
     fullTitle: "Minimal Porfolio - Simplistic Gatsby porfolio template",
     description:
