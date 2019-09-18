@@ -4,8 +4,6 @@
 
 Easily configurable, simplistic protfolio starter using [Gatsby](https://www.gatsbyjs.org/) and Markdown.
 
-**[Live demo](https://minimal-portfolio.zielinsk.im/)** hosted on Netlify.
-
 ---
 
 #### Features and details
